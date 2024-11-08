@@ -24,3 +24,23 @@
 #### Comments:
 - The above steps are for setting up the latest version of Selenium Web Driver with Chrome Browser without using Selenium Driver Manager.
 - It is recommended to use Selenium Driver Manager for setting up the Selenium Web Driver with Chrome Browser.
+
+**Commit:** `Default working code`
+
+## Let's setup the latest version of Selenium Web Driver with Chrome Browser without using Selenium Driver Manager
+
+### Pre-requisites:
+1. Goto: https://developer.chrome.com/docs/chromedriver/downloads
+2. Check installed Chrome Browser version: `chrome://version/` in browser address bar.
+3. Download the Chrome Driver version compatible with the Chrome Browser version.
+    - Visit: `https://googlechromelabs.github.io/chrome-for-testing/#stable`
+    - Download the Chrome Driver version compatible with the Chrome Browser version, OS and architecture.
+    - I'm going with: `https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win64/chromedriver-win64.zip`
+    - Extract the downloaded zip file.
+    - Copy the chromedriver.exe file to the project folder.
+    - Add the chromedriver.exe path to the system environment variable PATH (optional, but recommended).
+    - Check if the chromedriver is working by running the command `chromedriver --version` in the command prompt.
+4. Search for the way to link the latest chrome driver with the python code.
+    - Use the given code to link the chrome driver with the python code in `without_webdriver_manager_selenium.py` file.
+
+**Commit:** `without selenium driver manager`
