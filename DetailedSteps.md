@@ -44,3 +44,14 @@
     - Use the given code to link the chrome driver with the python code in `without_webdriver_manager_selenium.py` file.
 
 **Commit:** `without selenium driver manager`
+
+## Let's setup the profile for Chrome Browser to make sure it's aligned with the project requirements
+
+1. To use the profile in the Chrome Browser.
+    - Open the Chrome Browser and visit: `chrome://version/`
+    - Copy the Profile Path.
+    - Update the chrome options for user-date-dir `chrome_options.add_argument(r"--user-data-dir=C:\Users\Sinku\AppData\Local\Google\Chrome\User Data")`
+    - Update the chrome options for profile-directory `chrome_options.add_argument(r"--profile-directory=Profile 2")`
+    - See `with_profile_selenium.py` file for the code.
+
+**Commit:** `with profile`
